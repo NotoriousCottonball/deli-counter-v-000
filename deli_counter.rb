@@ -1,1 +1,2 @@
-def line
+def line(guests)
+  
