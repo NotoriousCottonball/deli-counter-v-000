@@ -19,4 +19,5 @@ def now_serving(guests)
   if guests.size == 0 
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{guests[0]}"
+    puts "Currently serving #{guests[0]}."
+    guests.shift
