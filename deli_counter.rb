@@ -1,3 +1,4 @@
 def line(guests)
   if guests.length == 0 
-    puts 
+    puts "The line is currently empty."
+  
