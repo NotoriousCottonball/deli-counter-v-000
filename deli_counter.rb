@@ -11,4 +11,4 @@ def line(guests)
 end
 
 def take_a_number(guests, name)
-  
+  puts ""
