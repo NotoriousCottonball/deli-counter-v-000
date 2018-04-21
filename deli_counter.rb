@@ -15,4 +15,4 @@ def take_a_number(guests, name)
   puts "Welcome, #{name}. You are number #{guests.size} in line."
 end
 
-def now_serving()
+def now_serving(guests)
