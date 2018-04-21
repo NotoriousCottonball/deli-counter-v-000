@@ -6,4 +6,6 @@ def line(guests)
     guests.map do |guest, index| 
       string << "#{index - 1}. #{guest} "
     end
-    string
+    puts string 
+  end
+end
