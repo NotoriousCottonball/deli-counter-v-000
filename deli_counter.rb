@@ -4,4 +4,6 @@ def line(guests)
   else
     string = "The line is currently: "
     guests.map do |guest, index| 
-      string << "#{index - 1}. #{guest}"
+      string << "#{index - 1}. #{guest} "
+    end
+    string
