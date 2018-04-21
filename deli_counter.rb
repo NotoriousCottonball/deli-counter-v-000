@@ -9,3 +9,6 @@ def line(guests)
     puts string 
   end
 end
+
+def take_a_number(guests, name)
+  
