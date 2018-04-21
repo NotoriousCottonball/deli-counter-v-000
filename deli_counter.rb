@@ -3,7 +3,7 @@ def line(guests)
     puts "The line is currently empty."
   else
     string = "The line is currently: "
-    guests.map do |guest, index| 
+    guests.map.with_index do |guest, index| 
       string << "#{index + 1}. #{guest} "
     end
     puts string 
