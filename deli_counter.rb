@@ -11,4 +11,5 @@ def line(guests)
 end
 
 def take_a_number(guests, name)
-  puts "Welcome #{name}! You are currently number #{guests.size + 1}" in line
+  puts "Welcome #{name}! You are currently number #{guests.size + 1} in line."
+end
