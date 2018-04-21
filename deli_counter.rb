@@ -21,3 +21,5 @@ def now_serving(guests)
   else
     puts "Currently serving #{guests[0]}."
     guests.shift
+  end
+end
