@@ -18,4 +18,5 @@ end
 def now_serving(guests)
   if guests.size == 0 
     puts "There is nobody waiting to be served!"
-  
+  else
+    puts 
