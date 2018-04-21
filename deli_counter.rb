@@ -14,3 +14,5 @@ def take_a_number(guests, name)
   guests.push(name)
   puts "Welcome, #{name}. You are number #{guests.size} in line."
 end
+
+def now_serving()
